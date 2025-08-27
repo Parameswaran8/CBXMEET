@@ -20,7 +20,7 @@ function App() {
     <View style={styles.container}>
       <StatusBar barStyle={isDarkMode ? "light-content" : "dark-content"} />
       {/* <Navigation /> */}
-      {/* <SplaceScreen /> */}
+      <SplaceScreen />
       {/* <FeatureMain /> */}
       {/* <LoginScreen /> */}
       {/* <WebViewContainer /> */}
