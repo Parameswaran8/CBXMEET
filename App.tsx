@@ -5,33 +5,25 @@
  * @format
  */
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-import {
-  SafeAreaProvider,
-  useSafeAreaInsets,
-} from 'react-native-safe-area-context';
+import { NewAppScreen } from "@react-native/new-app-screen";
+import { StatusBar, StyleSheet, useColorScheme, View } from "react-native";
+import FeatureMain from "./src/FeatureMain/FeatureMain";
+import SplaceScreen from "./src/Onboard/Onboard";
+import LoginScreen from "./src/Authorization/Login";
+import WebViewContainer from "./src/WebViewContainer/WebViewContainer";
+// import Navigation from './src/Navigations/Navigation';
 
 function App() {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  return (
-    <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
-    </SafeAreaProvider>
-  );
-}
-
-function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
+  const isDarkMode = useColorScheme() === "dark";
 
   return (
     <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
+      <StatusBar barStyle={isDarkMode ? "light-content" : "dark-content"} />
+      {/* <Navigation /> */}
+      {/* <SplaceScreen /> */}
+      {/* <FeatureMain /> */}
+      {/* <LoginScreen /> */}
+      {/* <WebViewContainer /> */}
     </View>
   );
 }
