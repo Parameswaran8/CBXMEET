@@ -551,9 +551,9 @@
     "ios": {
       "sourceDir": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/ios",
       "xcodeProject": {
-        "name": "AwesomeProject.xcworkspace",
+        "name": "AwesomeProject.xcodeproj",
         "path": ".",
-        "isWorkspace": true
+        "isWorkspace": false
       },
       "assets": []
     },
