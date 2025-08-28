@@ -3,6 +3,58 @@
   "reactNativePath": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native",
   "reactNativeVersion": "0.81",
   "dependencies": {
+    "@react-native-masked-view/masked-view": {
+      "root": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/@react-native-masked-view/masked-view",
+      "name": "@react-native-masked-view/masked-view",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/@react-native-masked-view/masked-view/RNCMaskedView.podspec",
+          "version": "0.3.2",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/@react-native-masked-view/masked-view/android",
+          "packageImportPath": "import org.reactnative.maskedview.RNCMaskedViewPackage;",
+          "packageInstance": "new RNCMaskedViewPackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/@react-native-masked-view/masked-view/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-gesture-handler": {
+      "root": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native-gesture-handler",
+      "name": "react-native-gesture-handler",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native-gesture-handler/RNGestureHandler.podspec",
+          "version": "2.28.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native-gesture-handler/android",
+          "packageImportPath": "import com.swmansion.gesturehandler.RNGestureHandlerPackage;",
+          "packageInstance": "new RNGestureHandlerPackage()",
+          "buildTypes": [],
+          "libraryName": "rngesturehandler_codegen",
+          "componentDescriptors": [
+            "RNGestureHandlerButtonComponentDescriptor",
+            "RNGestureHandlerRootViewComponentDescriptor"
+          ],
+          "cmakeListsPath": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
     "react-native-safe-area-context": {
       "root": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native-safe-area-context",
       "name": "react-native-safe-area-context",
@@ -24,6 +76,44 @@
             "RNCSafeAreaViewComponentDescriptor"
           ],
           "cmakeListsPath": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-screens": {
+      "root": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native-screens",
+      "name": "react-native-screens",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native-screens/RNScreens.podspec",
+          "version": "4.15.3",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native-screens/android",
+          "packageImportPath": "import com.swmansion.rnscreens.RNScreensPackage;",
+          "packageInstance": "new RNScreensPackage()",
+          "buildTypes": [],
+          "libraryName": "rnscreens",
+          "componentDescriptors": [
+            "RNSFullWindowOverlayComponentDescriptor",
+            "RNSScreenContainerComponentDescriptor",
+            "RNSScreenNavigationContainerComponentDescriptor",
+            "RNSScreenStackHeaderConfigComponentDescriptor",
+            "RNSScreenStackHeaderSubviewComponentDescriptor",
+            "RNSScreenStackComponentDescriptor",
+            "RNSSearchBarComponentDescriptor",
+            "RNSScreenComponentDescriptor",
+            "RNSScreenFooterComponentDescriptor",
+            "RNSScreenContentWrapperComponentDescriptor",
+            "RNSModalScreenComponentDescriptor",
+            "RNSBottomTabsComponentDescriptor"
+          ],
+          "cmakeListsPath": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -79,6 +169,31 @@
             "RNSVGUseComponentDescriptor"
           ],
           "cmakeListsPath": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-worklets": {
+      "root": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native-worklets",
+      "name": "react-native-worklets",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native-worklets/RNWorklets.podspec",
+          "version": "0.4.2",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native-worklets/android",
+          "packageImportPath": "import com.swmansion.worklets.WorkletsPackage;",
+          "packageInstance": "new WorkletsPackage()",
+          "buildTypes": [],
+          "libraryName": "rnworklets",
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/node_modules/react-native-worklets/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,

@@ -44,8 +44,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/android/app/.cxx/Debug/4e574y3w/armeabi-v7a/rngesturehandler_codegen_autolinked_build/cmake_install.cmake")
   include("/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/android/app/.cxx/Debug/4e574y3w/armeabi-v7a/safeareacontext_autolinked_build/cmake_install.cmake")
+  include("/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/android/app/.cxx/Debug/4e574y3w/armeabi-v7a/rnscreens_autolinked_build/cmake_install.cmake")
   include("/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/android/app/.cxx/Debug/4e574y3w/armeabi-v7a/rnsvg_autolinked_build/cmake_install.cmake")
+  include("/Users/harekrishn/Desktop/Param/WebView CLI CBXMEET/CBXMEET/android/app/.cxx/Debug/4e574y3w/armeabi-v7a/rnworklets_autolinked_build/cmake_install.cmake")
 
 endif()
 
